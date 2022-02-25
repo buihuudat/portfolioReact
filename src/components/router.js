@@ -14,7 +14,8 @@ export default function Routers() {
   return (
     <div style={{paddingLeft: '280px'}}>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/portfolioReact' element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/services" element={<Services />} />
