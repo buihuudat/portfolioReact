@@ -1,0 +1,28 @@
+.home {
+  width: 100%;
+  height: 100vh;
+}
+
+.home__wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.home__img {
+  position: relative;
+}
+
+.home__content {
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  width: calc(100% - 300px);
+}
+
+.home__name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}

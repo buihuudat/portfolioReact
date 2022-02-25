@@ -1,0 +1,32 @@
+.blog {
+  width: 100%;
+  height: 100%;
+}
+
+.blog__wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog__title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 2.5rem 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.blog__desc {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog__content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+}

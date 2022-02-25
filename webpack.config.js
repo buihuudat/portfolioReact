@@ -1,0 +1,1 @@
+resolve.fallback: { "assert": require.resolve("assert/") }
